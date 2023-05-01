@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+}
+body{
+    background-color: #8a6cfe;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.main-container{
+    background-color: #fff;
+    width: 40vmin;
+    padding: 2rem 1rem;
+    border-radius: 0.4rem;
+}
+#output-color{
+    height: 25vmin;
+    width: 35vmin;
+    display: grid;
+    margin-bottom: 15px;
+    place-items: center;
+}
+#output-color span{
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.show-color{
+    animation: pop 0.8s;
+}
+@keyframes pop{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#output{
+    height: 40px;
+    width: 150px;
+    color: #8a6cfe;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid #d5d5d5;
+}
+#output:focus{
+    outline: none;
+}
+
+.btns{
+    margin-top: 15px;
+}
+.button{
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    border: none;
+    
+    color: #fff;
+}
+#gen-btn{
+    background-color: #6c757e;
+}
+#copy-btn{
+    background-color: #8a6cfe;
+}
+
+@media screen and (max-width: 643px) {
+    .main-container{
+        width: 70%;
+    }
+    #output-color{
+        width: 65vmin; 
+        height: 50vmin;
+
+    }
+    #output{
+        width: 40vmin;
+        height: 15vmin;
+        font-size: 5vmin;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .button{
+        padding: 1rem 1rem;
+        font-size: 1.4rem;
+    }
+    #gen-btn{
+        margin-right: 2vmin;
+    }
+
+  }
+  @media screen and (max-width: 489px) {
+    .button{
+        padding: 1rem 1rem;
+        font-size: 1.2rem;
+    }
+    #gen-btn{
+        margin-bottom: 0.6rem;
+        margin-right: 0vmin;
+    }
+    #copy-btn{
+        width: 160px;
+    }
+  }
