@@ -35,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
 ### Font Family
  
  * I have Used Google Fonts - Roboto
-```
+```html
 <!-- google font link  -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
